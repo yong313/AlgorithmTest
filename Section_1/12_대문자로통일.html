@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>12_출력결과</title>
+    </head>
+    <body>
+        <script>
+            function solution(s){
+                let answer = s.toUpperCase();
+                
+                // 반복문 사용해서
+                // for (let x of s) {
+                //   if (x === x.toLowerCase()) answer += x.toUpperCase();
+                //   else answer += x;
+
+                  // 아스키넘버
+                  // let num = x.charCodeAt();
+                  // if (num >= 97 && num <= 122) answer += String.fromCharCode(num - 32);
+                  // else answer += x;
+                // }
+                return answer;
+            }
+            let str = "ItisTimeToStudy";
+            console.log(solution(str));
+        </script>
+    </body>
+</html>
